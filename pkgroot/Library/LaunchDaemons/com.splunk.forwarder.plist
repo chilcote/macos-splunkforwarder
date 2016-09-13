@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/
+PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Disabled</key>
+  <false/>
+  <key>Label</key>
+  <string>com.splunk.forwarder</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>SPLUNK_HOME</key>
+    <string>/opt/splunkforwarder</string>
+  </dict>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/splunkforwarder/bin/splunk</string>
+    <string>start</string>
+    <string>splunkd</string>
+    <string>--no-prompt</string>
+    <string>--answer-yes</string>
+    <string>--accept-license</string>
+  </array>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>RunAtLoad</key>
+  <true/>
+</dict>
+</plist>

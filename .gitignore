@@ -1,0 +1,4 @@
+*.pkg
+*.dmg
+*.tgz
+pkgroot/opt*
