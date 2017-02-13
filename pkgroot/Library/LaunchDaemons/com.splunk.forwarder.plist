@@ -23,6 +23,8 @@ PropertyList-1.0.dtd">
   </array>
   <key>ProcessType</key>
   <string>Background</string>
+  <key>StartInterval</key>
+  <integer>80000</integer>
   <key>RunAtLoad</key>
   <true/>
 </dict>
