@@ -1,5 +1,5 @@
 PKGTITLE="splunk_forwarder"
-PKGVERSION="6.4.3"
+PKGVERSION=$(shell ./version.sh)
 PKGID=com.splunk.forwarder
 PROJECT="splunk_forwarder"
 
